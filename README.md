@@ -12,8 +12,11 @@ jdbc的问题分析
 
 mysql的在maven中的依赖
 
-<dependency>
+
+    <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.11</version>
-</dependency>
+    </dependency>
+
+
