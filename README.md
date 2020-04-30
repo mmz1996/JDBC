@@ -7,3 +7,13 @@ jdbc的问题分析
 3.在preparedStatement向占有符号传参数存在硬编码，因为sql条件where条件不一定，可能多也可能少。
 
 4.对结果集解析存在硬编码（查询列名）,如果能将结果映射成pojo代码比较方便。
+
+——————————————————————————————————————————————————
+
+mysql的在maven中的依赖
+
+<dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.11</version>
+</dependency>
